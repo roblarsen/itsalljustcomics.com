@@ -5,18 +5,7 @@
 	  return{
 	    _init : function(){
 		    $( document ).ready(function(){
-        if ( window.matchMedia !== undefined && window.matchMedia( "(min-width: 768px)" ).matches) {
-          $.getJSON("/wp-content/themes/jppp/img/headers.php", function( data ){ 
-		        var index = Math.floor(data.length * Math.random());
-		        $("#jppp_header").attr("src","http://diqmvuv8zy5jv.cloudfront.net/wp-content/themes/jppp/img/header/"+ data[index]);
-          });	
-	} else if (window.matchMedia === undefined) {
-            $.getJSON("/wp-content/themes/jppp/img/headers.php", function( data ) {      
-              var index = Math.floor(data.length * Math.random());                                 
-              $("#jppp_header").attr("src","http://diqmvuv8zy5jv.cloudfront.net/wp-content/themes/jppp/img/header/"+ data[index]);                                                   
-          });       
-        }
-		    $(".alignnone").each(function(index,el){
+        $(".alignnone").each(function(index,el){
 		      var $el = $(el);
           $el.removeAttr("height").css("max-width", $el.width()).attr("width", "100%")});
 		    });
