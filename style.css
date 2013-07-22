@@ -43,7 +43,39 @@ License: MIT
     font-style: normal;
 
 }
+@font-face {
+    font-family: 'BPreplay';
+    src: url('fonts/BPreplay-webfont.eot');
+    src: url('fonts/BPreplay-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://javaplusplusplus.com/wp-content/themes/jppp/fonts/BPreplay-webfont.woff') format('woff'),
+         url('fonts/BPreplay-webfont.ttf') format('truetype'),
+         url('fonts/BPreplay-webfont.svg#BPreplayRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
+@font-face {
+    font-family: 'BPreplayBold';
+    src: url('fonts/BPreplayBold-webfont.eot');
+    src: url('fonts/BPreplayBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://javaplusplusplus.com/wp-content/themes/jppp/fonts/BPreplayBold-webfont.woff') format('woff'),
+         url('fonts/BPreplayBold-webfont.ttf') format('truetype'),
+         url('fonts/BPreplayBold-webfont.svg#BPreplayBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'BPreplayItalic';
+    src: url('fonts/BPreplayItalics-webfont.eot');
+    src: url('fonts/BPreplayItalics-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://javaplusplusplus.com/wp-content/themes/jppp/fonts/BPreplayItalics-webfont.woff') format('woff'),
+         url('fonts/BPreplayItalics-webfont.ttf') format('truetype'),
+         url('fonts/BPreplayItalics-webfont.svg#BPreplayItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 
 
@@ -99,6 +131,7 @@ body {
 
 #header {
   clear: both;
+  padding:10px 5px 20px 5px;
   }
 
 #header .inner {
@@ -596,12 +629,19 @@ input#searchsubmit {
 }
 .site-description .me {
     color:#fff;
-    font-family:sf_wonder_comicbold;
+    font-family:komika_axisregular;
 }
 
 /* Indent Sidebar Lists */
 .widget-container h3 {
-  font-family:sf_wonder_comicregular; 
+  font-family:komika_axisregular;
+  font-weight:normal; 
+  color: #003366;
+font-family:komika_axisregular;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+text-shadow: 0.1em 0.1em 0em #67b4fc;
 }
 .widget-container ul ul {
   border: none;
@@ -639,78 +679,28 @@ input#searchsubmit {
 #related-links .links .contact.twitter{background-position:0 -166px;}
 #related-links .links .contact.htmlcssjs{background-position:0 -232px; width:300px;}
 #related-links .links .contact.lastfm{background-position:0 -45px;}#related-links .links .contact.vimeo{background-position:0 -256px;}#related-links .links .contact.delicious{background-position:0 -21px;}
-.widget_container {
-    margin:0;    
+.widget-container {
+ border:2px solid #333;
+ -webkit-border-radius: 15px;
+-moz-border-radius: 15px;
+border-radius: 15px;
+padding:5px 10px;  
+margin-bottom:10px;     
 }
-.widget_search{
-    padding-bottom:10px;
+.widget_search {
+ border:none;
+ margin-bottom:10px;     
 }
-.widget_recent_entries, .widget_categories, .widget_rss_links {
-    color:white;
-    background:#555;
-    padding:20px 30px 20px 60px;
 
-}
 .widget_rss_links a {
   color:#fff;
   text-transform: uppercase;
 }
- .widget_categories{
-     overflow:auto;
- }
- .widget_categories li {
-     float:left;
-     padding:2px 8px 2px 0px;
-     text-transform:uppercase; line-height:1.2
- }
- .widget_categories li:before {
+.widget_categories li:before {
      content : "★";
-     color: rgb(245,0,255);
+     color: #67b4fc;
      margin-right: 4px
- } 
- .widget_categories a, .widget_recent_entries a {
-    color:white;
-}
-.widget_gce_widget {
-   background:#fff;
-    border:1px solid #555;
-    padding:10px;
-    line-height: 1.5;
-    font-size: 90%;
-}
-#text-4 {
-  background:#fff;
-  border:1px solid #555;
-  padding:10px;
-  line-height: 1.5;
-  font-size: 90%;
-}
-#text-4 span {
-  color: rgb(245,0,255);
-  font-weight: bold;
-}
-.gce-list-title {
- font-size:130%;   
-}
-.gce-widget-list .gce-list .gce-list-event {
-  font-weight:bold;
-  font-size: 125%;
-  padding : 6px 2px;
-}
-#sidebar .gce-widget-list .gce-list span {
-color:rgb(245,0,255);
-font-weight:bold;
-}
-#sidebar .gce-widget-list .gce-list div {
- margin: 4px auto; 
-}
-.widget_archive {
-    background:#fff;
-    border:1px solid #555;
-    padding:10px;
-
-}
-
+} 
 /* @group WP Blog Styles */
 
 .entry-meta {

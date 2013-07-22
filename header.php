@@ -79,4 +79,3 @@
 	st_header();
 	st_below_header();
 	?>
-        <div class="row sixteen columns"><img class="scale-with-grid round" id="jppp_header" alt="" /></div>

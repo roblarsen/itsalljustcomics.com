@@ -88,9 +88,7 @@
 	
 
 #header #site-title a, #header h1#site-title, #header h1#site-title a {
-font-size:26px;
-letter-spacing:10px;
-line-height:24px;
+font-size:36px;
 vertical-align:top;
 }
 #header .site-desc.text {
@@ -114,18 +112,9 @@ overflow:hidden;
 #related-links .links .contact{
     width : 100%;
 }
-
-.widget_recent_entries, .widget_categories {
-    color:white;
-    background:#555;
-    padding:5px 5px 5px 10px;
-}
  .widget_categories li {
      padding:2px 8px 2px 0px;
  }
-.widget_archive{
-    padding:5px;
-}
 }
 	
 	/* Mobile/Browser */
@@ -134,10 +123,7 @@ overflow:hidden;
 	#wrap {}
 	#header div#site-title a, #header h1#site-title, #header h1#site-title a {
 font-size:30px;
-letter-spacing:30px;
-display:block;
-float:none;
-line-height:1;
+line-height:1.5;
 text-align:center;
 }
 #header .site-desc.text {
