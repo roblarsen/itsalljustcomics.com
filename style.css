@@ -1142,8 +1142,8 @@ img.scale-with-grid {
 
 .bypostauthor,.gallery-caption {}
 
-#gallery-1 br { display:inline !important; display:none !important; float:none !important;}
+.gallery br { display:inline !important; display:none !important; float:none !important;}
 
-#gallery-1 dl {padding: 5px; height:200px; width:175px; border:1px solid #ccc}
+.gallery dl {padding: 5px; height:200px; width:175px; border:1px solid #ccc}
 
-#gallery-1 dl dd {font-weight:bold;}
+.gallery  dl dd {font-weight:bold;}
