@@ -190,7 +190,9 @@ text-shadow: 0.07em 0.07em 0em #67b4fc;
 color: #404040;
 }
 #header #site-title a:hover {
-  color: #0094FF;
+  color: red;
+  
+text-shadow: 0.07em 0.07em 0em blue;
 } 
 
 /* Header Tagline */
