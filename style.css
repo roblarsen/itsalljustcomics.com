@@ -1,6 +1,6 @@
 /*
-Theme Name: Java+++
-Theme URI: http://javaplusplusplus.com
+Theme Name: It's All Just Comics
+Theme URI: http://itsalljustcomics.com
 Description: A custom WordPress theme based on the Skeleton RWD framework
 Version: 1.0
 Author: Rob Larsen
@@ -1142,8 +1142,17 @@ img.scale-with-grid {
 
 .bypostauthor,.gallery-caption {}
 
+/*
+The home for wayward styles. 
+TODO: put these where they belong, yo. 
+*/
+
 .gallery br { display:inline !important; display:none !important; float:none !important;}
 
 .gallery dl {padding: 5px; height:200px; width:175px; border:1px solid #ccc}
 
 .gallery  dl dd {font-weight:bold;}
+
+.entry-content li {
+  line-height:1.5;
+}
