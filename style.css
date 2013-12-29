@@ -29,6 +29,7 @@ License: MIT
   #Comments
   #WP Gallery
   #Misc
+  #100kclub
 */
 
 /* @group Fonts */
@@ -1155,4 +1156,98 @@ TODO: put these where they belong, yo.
 
 .entry-content li {
   line-height:1.5;
+}
+
+/*
+* $100,000 club
+*/
+table.data {margin:10px 0; width:95%; background:#fff;}
+.data th {
+    background: #aaa;
+    height:40px;
+    text-transform: uppercase;
+    color: #000;
+    border:1px solid #999;
+}
+.data th.sortable {
+  padding-right:25px;
+  background:#aaa url(img/arrows.png) 97% 15px no-repeat;
+}
+.data th.sortable.up {
+
+  background:#aaa url(img/arrows.png) 97% -85px no-repeat;
+}
+.data th.sortable.down {
+
+  background:#aaa url(img/arrows.png) 97% -187px no-repeat;
+}
+.data td { border:1px solid #ccc; padding:5px; border-collapse: collapse; }
+
+.data tr:nth-child(1n){
+    background:#fff;
+} 
+
+.data tr:nth-child(2n){
+    background:#eee;
+} 
+.sales tr:nth-child(1n){
+    background:#eee;
+} 
+
+.sales tr:nth-child(2n){
+    background:#fff;
+} 
+.title{
+    width:20%;
+}
+.number,.grade {
+    width:5%
+}
+.pedigree,
+.source{
+    width:15%;
+}
+.commentary {
+    width:20%;
+}
+.sales {
+    width:20%;
+}
+.sales table{
+    width:90%;
+    padding:0;
+    margin:6px auto;
+}    
+
+.editing {
+    position:fixed;
+    top:0;
+    left:0;
+    display:block;
+    -moz-box-shadow:    0px 3px 5px 6px #000;
+  -webkit-box-shadow: 0px 3px 5px 6px #000;
+  box-shadow:         20px 10px 10px 5px #000;
+  width:750px;
+  background:#fff;
+}
+
+.editing td{
+    float:left;
+    width:242px;
+    height:50px;
+}
+
+.edit {
+    width :24px;
+    height:24px;
+    background:url(img/edit.png) no-repeat;
+    border:0;
+    text-indent:-9999px;
+}
+#filter-box {
+    margin-bottom: 20px;
+    height: 30px;
+}
+#filter-box label {
+    font-size: 14px;
 }
