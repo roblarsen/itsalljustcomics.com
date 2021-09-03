@@ -42,12 +42,19 @@
 </title>
 
 <link rel="profile" href="http://gmpg.org/xfn/11" />
-
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-2795271308021483",
+          enable_page_level_ads: true
+     });
+</script>
 <!--[if lt IE 9]>
 	<script src="<?php echo get_stylesheet_directory_uri();?>/html5shiv-printshiv.js"></script>
 <![endif]-->
-
-
+<script>window._epn = {campaign:5336141966};</script>
+<script src="https://epnt.ebay.com/static/epn-smart-tools.js"></script>
+<script async src="https://epnt.ebay.com/static/epn-smart-tools.js"></script>
 <!-- Mobile Specific Metas
 ================================================== -->
 

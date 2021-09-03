@@ -48,7 +48,7 @@ License: MIT
     font-family: 'BPreplay';
     src: url('fonts/BPreplay-webfont.eot');
     src: url('fonts/BPreplay-webfont.eot?#iefix') format('embedded-opentype'),
-         url('http://javaplusplusplus.com/wp-content/themes/jppp/fonts/BPreplay-webfont.woff') format('woff'),
+         url('fonts/BPreplay-webfont.woff') format('woff'),
          url('fonts/BPreplay-webfont.ttf') format('truetype'),
          url('fonts/BPreplay-webfont.svg#BPreplayRegular') format('svg');
     font-weight: normal;
@@ -59,7 +59,7 @@ License: MIT
     font-family: 'BPreplayBold';
     src: url('fonts/BPreplayBold-webfont.eot');
     src: url('fonts/BPreplayBold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('http://javaplusplusplus.com/wp-content/themes/jppp/fonts/BPreplayBold-webfont.woff') format('woff'),
+         url('fonts/BPreplayBold-webfont.woff') format('woff'),
          url('fonts/BPreplayBold-webfont.ttf') format('truetype'),
          url('fonts/BPreplayBold-webfont.svg#BPreplayBold') format('svg');
     font-weight: normal;
@@ -70,7 +70,7 @@ License: MIT
     font-family: 'BPreplayItalic';
     src: url('fonts/BPreplayItalics-webfont.eot');
     src: url('fonts/BPreplayItalics-webfont.eot?#iefix') format('embedded-opentype'),
-         url('http://javaplusplusplus.com/wp-content/themes/jppp/fonts/BPreplayItalics-webfont.woff') format('woff'),
+         url('fonts/BPreplayItalics-webfont.woff') format('woff'),
          url('fonts/BPreplayItalics-webfont.ttf') format('truetype'),
          url('fonts/BPreplayItalics-webfont.svg#BPreplayItalic') format('svg');
     font-weight: normal;
@@ -187,7 +187,7 @@ line-height: 56px;
 text-shadow: 0.07em 0.07em 0em #67b4fc;
 }
 
-#header #site-title a:visited, {
+#header #site-title a:visited {
 color: #404040;
 }
 #header #site-title a:hover {
@@ -1158,6 +1158,9 @@ TODO: put these where they belong, yo.
   line-height:1.5;
 }
 
+#text-3 {
+border:none;
+}
 /*
 * $100,000 club
 */
