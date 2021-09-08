@@ -52,9 +52,7 @@
 <!--[if lt IE 9]>
 	<script src="<?php echo get_stylesheet_directory_uri();?>/html5shiv-printshiv.js"></script>
 <![endif]-->
-<script>window._epn = {campaign:5336141966};</script>
-<script src="https://epnt.ebay.com/static/epn-smart-tools.js"></script>
-<script async src="https://epnt.ebay.com/static/epn-smart-tools.js"></script>
+
 <!-- Mobile Specific Metas
 ================================================== -->
 
